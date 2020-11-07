@@ -14,13 +14,13 @@ signIn.click()
 
 #input Email
 emailField = driver.find_element_by_xpath('//*[@id="identifierId"]')
-emailField.send_keys("radhanawade@acpce.ac.in")
+emailField.send_keys("")#enter your domain emailid that have classroom access
 emailField = driver.find_element_by_xpath('//*[@id="identifierNext"]/div/button/div[2]').click()
 
 driver.implicitly_wait(10)
 
 passwordFieldPass = driver.find_element_by_xpath('//*[@id="password"]/div[1]/div/div[1]/input')
-passwordFieldPass.send_keys("Rushi_9221")
+passwordFieldPass.send_keys("")# Enter Your Password (Do not share with anyone)
 passwordFieldPass = driver.find_element_by_xpath('//*[@id="passwordNext"]/div/button/div[2]').click()
 
 driver.implicitly_wait(10)
